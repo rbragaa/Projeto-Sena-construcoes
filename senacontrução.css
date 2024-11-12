@@ -2,13 +2,13 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box
 }
 
 /* Estilos gerais da barra de navegação */
 nav {
   background-color:black;
-  padding: 50px 80px; /* Espaçamento dentro da barra */
+  padding: 2px 40px; /* Espaçamento dentro da barra */
  display: flex;
   justify-content: space-between; /* Alinha logo à esquerda e links à direita */
   align-items: center; /* Alinha a logo e os links verticalmente */
@@ -16,7 +16,7 @@ nav {
 
 /* Logo - Ajuste o tamanho da imagem conforme necessário */
 .logo img {
-  height: 80px; /* Ajuste o tamanho da logo */
+  height: 120px; /* Ajuste o tamanho da logo */
 }
 
 /* Estilos do menu de navegação */
