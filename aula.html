@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra de Navegação com Logo</title>
+    <style>
+        /* Resetando margens e padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilos gerais da barra de navegação */
+        nav {
+            background-color: #333;
+            padding: 10px 20px; /* Espaçamento dentro da barra */
+            display: flex;
+            justify-content: space-between; /* Alinha logo à esquerda e links à direita */
+            align-items: center; /* Alinha a logo e os links verticalmente */
+        }
+
+        /* Logo - Ajuste o tamanho da imagem conforme necessário */
+        .logo img {
+            height: 40px; /* Ajuste o tamanho da logo */
+        }
+
+        /* Estilos do menu de navegação */
+        nav ul {
+            list-style-type: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px; /* Espaço entre os itens do menu */
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+        /* Responsividade - Exibe os links em coluna em telas menores */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul li {
+                margin: 10px 0; /* Ajusta o espaçamento entre os itens em telas pequenas */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barra de Navegação -->
+    <nav>
+        <!-- Logo -->
+        <div class="logo">
+            <img src="logos do projeto/logo_2.png" alt="Logo">
+        </div>
+
+        <!-- Menu de Navegação -->
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
+</body>
+</html>
