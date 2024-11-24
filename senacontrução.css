@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 hr {
   border: #0f1d26;
   height: 6px;
@@ -8,23 +7,13 @@ hr {
 body {
   background-color: var(--bg-color);
   color: black;
-=======
-body {
-  background-color: #0f1d26;
-  color:white;
->>>>>>> 0714d2a78d7f0d5fd8ad97ad725f49ee2d05eea8
 }
 h1 {
   color: #ee5529;
 }
 nav {
-<<<<<<< HEAD
   padding: 12px;
   background-color: #0f1d26;
-=======
-  padding: 20px;
-  background-color: white;
->>>>>>> 0714d2a78d7f0d5fd8ad97ad725f49ee2d05eea8
   overflow: hidden;
 }
 
@@ -38,13 +27,8 @@ nav a {
 }
 
 nav a:hover {
-<<<<<<< HEAD
   background-color: #ee5529;
   color: #0f1d26;
-=======
-  background-color: white;
-  color: black;
->>>>>>> 0714d2a78d7f0d5fd8ad97ad725f49ee2d05eea8
 
 }
 
