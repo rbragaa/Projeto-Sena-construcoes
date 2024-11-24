@@ -1,4 +1,6 @@
-let a = 5
-let b = 4
-let resultado = a + b;
-console.log ("o resultado dessa operação é " + resultado);
+const $html = document.querySelector('html')
+const $checkbox = document.querySelector('#switch')
+
+$checkbox.addEventListener('change',function(){
+    $html.classList.toggle('dark-mode')
+})
