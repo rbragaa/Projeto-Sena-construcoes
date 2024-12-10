@@ -6,14 +6,14 @@ hr {
 }
 body {
   background-color: var(--bg-color);
-  color: black;
+  color: var(--bg-colorfont);
 }
 h1 {
-  color: #ee5529;
+
 }
 nav {
   padding: 12px;
-  background-color: #0f1d26;
+  background-color: #white;
   overflow: hidden;
 }
 
@@ -28,18 +28,13 @@ nav a {
 
 nav a:hover {
   background-color: #ee5529;
-  color: #0f1d26;
+  color: white;
 
 }
 
 .logo {
   height: 90px;
 }
-
-.produtos {
-  text-align: center;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -47,7 +42,73 @@ nav a:hover {
 }
 :root {
   --bg-color: #fafafa;
+  --bg-colorfont: #000000;
 }
 .dark-mode:root{
   --bg-color: #0f1d26;
+  --bg-colorfont: #fafafa;
+}
+.row {
+  margin: 5px;
+}
+label {
+  width: 100px;
+  text-align: right;
+  display: inline-block;
+  padding-right: 5px;
+}
+fieldset {
+  margin: 40px;
+  border-color: #ee5529;
+  border-radius: 10px;
+  font-size: 23px;
+}
+#row-button {
+  margin-left: 40px;
+}
+
+.login-divisao {
+  margin-bottom: 10px;
+  margin-top: 25px;
+  text-align: center;
+}
+.button-login{
+  width: 20%;
+  height: 25px;
+  background-color: #0f1d26;
+  color: #ee5529;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: px;
+}
+.button-cadastro {
+  width: 50%;
+  height: 40px;
+  background-color: #0f1d26;
+  color: #ee5529;
+  border-radius: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+}
+
+
+.products {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.product{
+  border: 1px solid #ee5529;
+  border-radius: 15px;
+  width: 30%;
+  height: 250px;
+  text-align: center;
+  color: black;
+  padding: 25px;
+  margin-top: 5px;
+}
+.product:hover{
+ color: #ee5529;
 }

@@ -17,32 +17,61 @@
         <a href="/NAV/favoritos.html"><i class="fa-solid fa-star"></i> </a>
       </nav>
       <hr>
-    <H1> <center>
-        <strong>Cadastro</strong>
-    </H1></center>
+    <h1>Formulario de Cadastro</h1>
 
+  <fieldset>
+  <legend>Dados Pessoais</legend>
+    <div class="row">
+      <label>Nome:</label><input type="text">
+      <label>Email:</label><input type="email">
+    </div>
+    
+    <div class="row">
+      <label>CPF:</label><input type="text">
+      <label>RG:</label><input type="text">
+    </div></fieldset>
+
+    <fieldset><legend>Endereço</legend>
+    <div class="row">
+      <label>Endereço:</label><input type="text">
+      <label>Numero:</label><input style="width: 30px;" type="text" width="10"
+    </div>
+
+    <div class="row">
+      <label for="row">
+     Cidade
+      </label>
+      <select name="Cidade" id="Cidade">
+        <option value="1">São Paulo</option>
+        <option value="2">Vila Mariana</option>
+        <option value="3">Santa Cruz</option>
+        <option value="4">São judas</option>
+        <option value="5">Conçeição</option>
+        <option value="6">Ana Rosa</option>
+      </select>
+      
+    </div>
+
+    </div>
+    <div class="row">
+      <label>Bairro</label><input type="text">
+    </div></fieldset>
+
+    <fieldset><legend>Contato</legend>
+    <div class="row">
+      <label>Celular:</label><input type="text">
+      <label>Whatsapp:</label><input type="text">
+    </div></fieldset>
 
     
-    
-    
-    
-    <form onsubmit="alert('Verifique seu Email');">
-        <h2>Criar conta</h2>
-        CPF: <input type="number" name="CPF">
-        <p></p>
-        Nome: <input type="text" name="name">
-        <p></p>
-        Data de nascimento: <input type="number" name="idade">
-        <p></p>
-        Celular: <input type="number" name="telephone">
-        <p></p>
-        Email: <input type="text" name="email">
-        <p></p>
-        Senha: <input type="password" name="password">
-        <p>
-        </p>
-        <button type="submit">Concordar e Validar Email</button>
-    </form>
-    
+    <div class="row" id="row-button">
+      <button type="reset">
+        Limpar
+      </button>
+
+      <button type="submit">
+        Cadastrar
+      </button>
+    </div>
 </body>
 </html>
